@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeilingPanelGenerator.Domain", "src/CeilingPanelGenerator.Domain/CeilingPanelGenerator.Domain.csproj", "{D121A4D9-6527-4C03-B12F-641A84F1396E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeilingPanelGenerator.Application", "src/CeilingPanelGenerator.Application/CeilingPanelGenerator.Application.csproj", "{847D4C76-9141-4799-A2F2-10BC5D0A2807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeilingPanelGenerator.Infrastructure", "src/CeilingPanelGenerator.Infrastructure/CeilingPanelGenerator.Infrastructure.csproj", "{535B112B-C3DF-47E9-98FA-19BE77465EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeilingPanelGenerator.Plugin", "src/CeilingPanelGenerator.Plugin/CeilingPanelGenerator.Plugin.csproj", "{F68A676F-2BF3-494D-994E-D307558EA46D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D121A4D9-6527-4C03-B12F-641A84F1396E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D121A4D9-6527-4C03-B12F-641A84F1396E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D121A4D9-6527-4C03-B12F-641A84F1396E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D121A4D9-6527-4C03-B12F-641A84F1396E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847D4C76-9141-4799-A2F2-10BC5D0A2807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847D4C76-9141-4799-A2F2-10BC5D0A2807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847D4C76-9141-4799-A2F2-10BC5D0A2807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847D4C76-9141-4799-A2F2-10BC5D0A2807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535B112B-C3DF-47E9-98FA-19BE77465EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535B112B-C3DF-47E9-98FA-19BE77465EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535B112B-C3DF-47E9-98FA-19BE77465EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535B112B-C3DF-47E9-98FA-19BE77465EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68A676F-2BF3-494D-994E-D307558EA46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68A676F-2BF3-494D-994E-D307558EA46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68A676F-2BF3-494D-994E-D307558EA46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68A676F-2BF3-494D-994E-D307558EA46D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
