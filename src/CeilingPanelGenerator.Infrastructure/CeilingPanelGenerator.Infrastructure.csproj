@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../CeilingPanelGenerator.Application/CeilingPanelGenerator.Application.csproj" />
+    <ProjectReference Include="../CeilingPanelGenerator.Domain/CeilingPanelGenerator.Domain.csproj" />
+  </ItemGroup>
+</Project>

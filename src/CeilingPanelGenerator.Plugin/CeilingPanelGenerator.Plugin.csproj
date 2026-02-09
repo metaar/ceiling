@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>CeilingPanelGenerator</AssemblyName>
+    <RootNamespace>CeilingPanelGenerator.Plugin</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="8.0.23339.13001" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../CeilingPanelGenerator.Application/CeilingPanelGenerator.Application.csproj" />
+    <ProjectReference Include="../CeilingPanelGenerator.Infrastructure/CeilingPanelGenerator.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
