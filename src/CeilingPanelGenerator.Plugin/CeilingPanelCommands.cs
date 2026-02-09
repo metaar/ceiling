@@ -119,7 +119,10 @@ public sealed class GenerateCeilingPanelsCommand : Command
 
                 foreach (var brep in breps)
                 {
-                    var extrusion = brep.Faces[0].CreateExtrusion(-plane.ZAxis * settings.PanelThickness, true);
+                    var extrusionPath = new LineCurve(
+                        plane.Origin,
+                        plane.Origin - (plane.ZAxis * settings.PanelThickness));
+                    var extrusion = brep.Faces[0].CreateExtrusion(extrusionPath, true);
                     if (extrusion is null)
                     {
                         continue;

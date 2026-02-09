@@ -7,7 +7,7 @@
     <NoWarn>NU1701</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="RhinoCommon" Version="8.0.23339.13001" />
+    <PackageReference Include="RhinoCommon" Version="8.1.23325.13001" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="../CeilingPanelGenerator.Application/CeilingPanelGenerator.Application.csproj" />
